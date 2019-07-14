@@ -14,6 +14,7 @@ namespace PangeaTemplate.Controllers
         public IEnumerable<string> Get()
         {
             return new string[] { "asd", "qwe", "zxc" };
+
         }
 
         public string Get(int id)
